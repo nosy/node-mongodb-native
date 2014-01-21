@@ -1,13 +1,13 @@
-## MongoDB Node.JS Driver
+## MongoDB Node.JS 驱动
  
-| what          | where                                          |
+| 什么          | 在哪                                          |
 |---------------|------------------------------------------------|
 | documentation | http://mongodb.github.io/node-mongodb-native/  |
 | apidoc        | http://mongodb.github.io/node-mongodb-native/  |
 | source        | https://github.com/mongodb/node-mongodb-native |
 | mongodb       | http://www.mongodb.org/                        |
 
-### Bugs / Feature Requests
+### 缺陷 / 功能 反馈
 
 Think you’ve found a bug? Want to see a new feature in node-mongodb-native? Please open a
 case in our issue management tool, JIRA:
@@ -19,16 +19,16 @@ case in our issue management tool, JIRA:
 Bug reports in JIRA for all driver projects (i.e. NODE, PYTHON, CSHARP, JAVA) and the
 Core Server (i.e. SERVER) project are **public**.
 
-### Questions and Bug Reports
+### 为题 和 缺陷报告
 
  * mailing list: https://groups.google.com/forum/#!forum/node-mongodb-native
  * jira: http://jira.mongodb.org/
 
-### Change Log
+### 修改日志
 
 http://jira.mongodb.org/browse/NODE
 
-## Install
+## 安装
 
 To install the most recent release from npm, run:
 
@@ -40,10 +40,10 @@ To install the latest from the repository, run::
 
     npm install path/to/node-mongodb-native
 
-## Live Examples
+## 活生生的实例
 <a href="https://runnable.com/node-mongodb-native" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a>
 
-## Introduction
+## 介绍
 
 This is a node.js driver for MongoDB. It's a port (or close to a port) of the library for ruby at http://github.com/mongodb/mongo-ruby-driver/.
 
@@ -73,7 +73,7 @@ A simple example of inserting a document.
   })
 ```
 
-## Data types
+## 数据类型
 
 To store and retrieve the non-JSON MongoDb primitives ([ObjectID](http://www.mongodb.org/display/DOCS/Object+IDs), Long, Binary, [Timestamp](http://www.mongodb.org/display/DOCS/Timestamp+data+type), [DBRef](http://www.mongodb.org/display/DOCS/Database+References#DatabaseReferences-DBRef), Code).
 
@@ -129,20 +129,20 @@ Once you have the source you can test the driver by running
 
 in the main directory. You will need to have a mongo instance running on localhost for the integration tests to pass.
 
-## Examples
+## 实例
 
 For examples look in the examples/ directory. You can execute the examples using node.
 
     $ cd examples
     $ node queries.js
 
-## GridStore
+## 网格存储
 
 The GridStore class allows for storage of binary files in mongoDB using the mongoDB defined files and chunks collection definition.
 
 For more information have a look at [Gridstore](https://github.com/mongodb/node-mongodb-native/blob/master/docs/gridfs.md)
 
-## Replicasets
+## 副本集
 
 For more information about how to connect to a replicaset have a look at the extensive documentation [Documentation](http://mongodb.github.com/node-mongodb-native/)
 
@@ -184,7 +184,7 @@ Simple example below
   });
 ```
 
-## Documentation
+## 文档
 
 If this document doesn't answer your questions, see the source of
 [Collection](https://github.com/mongodb/node-mongodb-native/blob/master/lib/mongodb/collection.js)
@@ -260,7 +260,7 @@ For information on how to create queries, see the
   });
 ```
 
-### Insert
+### 插入
 
 Signature:
 
@@ -333,7 +333,7 @@ Example for `update`:
   });
 ```
 
-### Find and modify
+### 查找和修改
 
 `findAndModify` is like `update`, but it also gives the updated document to
 your callback. But there are a few key differences between findAndModify and
@@ -377,7 +377,7 @@ Example for `findAndModify`:
   });
 ```
 
-### Save
+### 保存
 
 The `save` method is a shorthand for upsert if the document contains an
 `_id`, or an insert if there is no `_id`.
@@ -386,17 +386,17 @@ The `save` method is a shorthand for upsert if the document contains an
 
 See HISTORY
 
-## Credits
+## 积分
 
 1. [10gen](http://github.com/mongodb/mongo-ruby-driver/)
 2. [Google Closure Library](http://code.google.com/closure/library/)
 3. [Jonas Raoni Soares Silva](http://jsfromhell.com/classes/binary-parser)
 
-## Contributors
+## 贡献者
 
 Aaron Heckmann, Christoph Pojer, Pau Ramon Revilla, Nathan White, Emmerman, Seth LaForge, Boris Filipov, Stefan Schärmeli, Tedde Lundgren, renctan, Sergey Ukustov, Ciaran Jessup, kuno, srimonti, Erik Abele, Pratik Daga, Slobodan Utvic, Kristina Chodorow, Yonathan Randolph, Brian Noguchi, Sam Epstein, James Harrison Fisher, Vladimir Dronnikov, Ben Hockey, Henrik Johansson, Simon Weare, Alex Gorbatchev, Shimon Doodkin, Kyle Mueller, Eran Hammer-Lahav, Marcin Ciszak, François de Metz, Vinay Pulim, nstielau, Adam Wiggins, entrinzikyl, Jeremy Selier, Ian Millington, Public Keating, andrewjstone, Christopher Stott, Corey Jewett, brettkiefer, Rob Holland, Senmiao Liu, heroic, gitfy
 
-## License
+## 许可证
 
  Copyright 2009 - 2013 MongoDb Inc.
 
