@@ -19,7 +19,7 @@ case in our issue management tool, JIRA:
 Bug reports in JIRA for all driver projects (i.e. NODE, PYTHON, CSHARP, JAVA) and the
 Core Server (i.e. SERVER) project are **public**.
 
-### 为题 和 缺陷报告
+### 问题 和 缺陷报告
 
  * mailing list: https://groups.google.com/forum/#!forum/node-mongodb-native
  * jira: http://jira.mongodb.org/
